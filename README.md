@@ -36,3 +36,14 @@ This project demonstrates **input validation, clean code structure, and beginner
 - Compile using GCC:
   ```bash
   gcc currency_converter.c -o currency_converter
+
+
+
+## 👨‍💻 Author
+
+Name: Divyesh Modhvadiya  
+Course: BCA  
+Project Type: Academic Mini Project  
+Programming Language: C  
+
+---
