@@ -1,78 +1,142 @@
 # 💱 Currency Converter in C
 
-A simple and efficient **console-based currency conversion application** built using **C programming**.
+[![C](https://img.shields.io/badge/C-Programming-A8B9CC?style=for-the-badge\&logo=c\&logoColor=black)](https://en.wikipedia.org/wiki/C_%28programming_language%29)
+[![GCC](https://img.shields.io/badge/GCC-Compiler-555555?style=for-the-badge\&logo=gnu\&logoColor=white)](https://gcc.gnu.org/)
+[![Console App](https://img.shields.io/badge/Type-Console%20Application-blue?style=for-the-badge)]()
+[![License MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-This project allows users to convert values between multiple international currencies through a command-line interface. It focuses on fundamental programming concepts like **input validation, user interaction, conditional logic, and clean code structure**.
+> A simple command-line currency conversion application built using C programming.
 
----
+**Currency Converter** is a beginner-friendly console application that allows users to convert amounts between different international currencies. The project focuses on implementing real-world logic using C concepts such as user input handling, validation, conditional statements, and structured programming.
 
-## ✨ Features
-
-* 🌍 Supports multiple international currencies
-* 🔄 Converts currency values quickly through terminal
-* 🔤 Handles case-insensitive user input
-* ✅ Validates currency selection and amount input
-* 🚫 Prevents conversion between the same currency
-* 📊 Displays clear conversion results
-* 🧩 Simple and readable C implementation
+The application provides a simple terminal-based experience where users can select their source currency, enter an amount, choose a target currency, and receive the converted value instantly.
 
 ---
 
-## 🌎 Supported Currencies
+# ✨ Features
 
-| Country      | Currency      | Code |
-| ------------ | ------------- | ---- |
-| 🇮🇳 India   | Indian Rupee  | INR  |
-| 🇺🇸 USA     | US Dollar     | USD  |
-| 🇩🇪 Germany | Euro          | EUR  |
-| 🇬🇧 UK      | British Pound | GBP  |
-| 🇯🇵 Japan   | Japanese Yen  | JPY  |
+### 🌍 Multiple Currency Support
 
----
+Supports conversion between:
 
-## 🧰 Built With
-
-* **C Programming** — Core development language
-* **GCC Compiler** — Program compilation
-* **stdio.h** — Input and output handling
-* **string.h** — String operations
-* **ctype.h** — Character validation
+* 🇮🇳 Indian Rupee (INR)
+* 🇺🇸 US Dollar (USD)
+* 🇩🇪 Euro (EUR)
+* 🇬🇧 British Pound (GBP)
+* 🇯🇵 Japanese Yen (JPY)
 
 ---
 
-## 📌 Project Information
+### ✅ Smart Input Validation
 
-| Category     | Details             |
-| ------------ | ------------------- |
-| Project Type | Console Application |
-| Language     | C                   |
-| Interface    | Command Line        |
-| Purpose      | Currency Conversion |
-| Level        | Beginner Friendly   |
+The program handles:
+
+* Invalid country names
+* Incorrect amount values
+* Invalid conversion choices
+* Same currency conversion attempts
 
 ---
 
-## ▶️ How to Run
+### 🔄 Interactive Conversion
 
-Clone the repository:
+Users can:
+
+1. Enter their current currency
+2. Provide conversion amount
+3. Select target currency
+4. View converted result
+
+---
+
+### 🧩 Beginner-Friendly Structure
+
+The project demonstrates clean implementation of:
+
+* Variables
+* Conditions
+* Loops
+* String handling
+* User input processing
+
+---
+
+# 🧰 Built With
+
+| Technology    | Purpose                             |
+| ------------- | ----------------------------------- |
+| C Programming | Core application development        |
+| GCC Compiler  | Compiling and running the program   |
+| stdio.h       | Input and output operations         |
+| string.h      | String comparison and handling      |
+| ctype.h       | Character conversion and validation |
+
+---
+
+# 📌 Project Information
+
+| Category             | Details                      |
+| -------------------- | ---------------------------- |
+| Project Type         | Console Application          |
+| Programming Language | C                            |
+| Interface            | Command Line                 |
+| Data Handling        | User Input Based             |
+| Purpose              | Currency Conversion Practice |
+
+---
+
+# ⚙️ How It Works
+
+```
+User Input
+     ↓
+Currency Selection
+     ↓
+Amount Validation
+     ↓
+Conversion Calculation
+     ↓
+Converted Result Display
+```
+
+The program uses predefined conversion rates and performs calculations based on the selected currencies.
+
+---
+
+# 📂 Project Structure
+
+```
+Currency-Converter-C/
+
+│
+├── currency_converter.c
+│
+└── README.md
+```
+
+---
+
+# ▶️ Installation & Usage
+
+### Clone Repository
 
 ```bash
 git clone https://github.com/your-username/currency-converter-c.git
 ```
 
-Go to project directory:
+### Open Project Folder
 
 ```bash
 cd currency-converter-c
 ```
 
-Compile the program:
+### Compile Program
 
 ```bash
 gcc currency_converter.c -o currency_converter
 ```
 
-Run the application:
+### Run Application
 
 Windows:
 
@@ -88,64 +152,42 @@ Linux / macOS:
 
 ---
 
-## 📂 Project Structure
+# 🧠 Concepts Covered
 
-```bash
-Currency-Converter-C/
-│
-├── currency_converter.c
-└── README.md
-```
+This project helped in understanding:
 
----
-
-## 🧠 Concepts Covered
-
-This project demonstrates:
-
-* Variables and data types
+* C programming fundamentals
 * Conditional statements
 * Loops
-* Functions
-* String handling
-* User input validation
-* Basic problem-solving techniques
+* String functions
+* Input validation
+* Logical problem solving
+* Console application development
 
 ---
 
-## 🤝 Contributing
+# 🚀 Future Improvements
 
-Contributions and improvements are welcome.
+Possible improvements:
 
-Steps:
-
-1. Fork the repository
-2. Create a new branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push your branch and create a Pull Request
+* Add live exchange rate API support
+* Add more international currencies
+* Create a graphical user interface
+* Store conversion history
+* Improve calculation accuracy
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-Created and maintained by **Divyesh Modhvadiya**.
+Created and maintained by **Divyesh Modhvadiya**
 
 <p align="center">
-Made with ❤️ by <b>Divyesh Modhvadiya</b>
+Made with ❤️ using C Programming
 </p>
